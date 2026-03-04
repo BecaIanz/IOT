@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.16">
+  <GVL Name="GVL" Id="{14f96a9d-44c6-4d28-84b3-a443ee768ccb}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	
+	position : INT := 0; //position
+	gripperStatus : INT := 0; //Status da Garra
+	robotStatus : INT := 1; //ta indo?
+	
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
